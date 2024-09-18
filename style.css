@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/img.jpg ); 
+}
+
+.regform{
+    width:300px;
+    margin-top: 10px;
+    background-color: rgba(0, 0,0, 0.5);
+    color: white;
+    padding: 10px 25px 10px;
+    font-size:20px;
+    border-radius:7px;
+}
+
+.regform h2{
+    color: rgb(207, 111, 76);
+    text-align: center;
+}
+
+.input label{
+    display: block;
+    margin: 5px auto;
+}
+
+.input input{
+    width:100%;
+    margin: 5px 0px 10px;
+    font-size: 1.2em;
+    border-radius:7px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    background-color: lightgreen;
+}
+
+.btn{
+   text-align: center;
+}
+
+button{
+     font-size: 18px;
+     padding: 5px;
+     color: black;
+     margin: 15px 0px;
+     border-radius: 7px;
+}
+
+.radio input{
+    accent-color: lightgray;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+
+@media all and (width:320px) {
+    .regform{
+        width: 250px;
+    }
+    
+}
